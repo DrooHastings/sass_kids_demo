@@ -1,0 +1,39 @@
+body {
+  background: #dcdce8;
+  font-family: 'Coming Soon', cursive;
+  margin: 15%; }
+
+h1 {
+  color: #453d5e;
+  text-align: center; }
+
+h2 {
+  color: #1a9153; }
+
+h3 {
+  color: #9242f4; }
+
+.Aidan {
+  color: #000; }
+
+.Emery {
+  color: #453d5e; }
+
+img {
+  height: 90px;
+  width: 75px; }
+
+.container {
+  border-radius: 3px;
+  background: #FFF8FF;
+  border: 1px solid #EFC6F3;
+  padding: 15px;
+  color: #333333; }
+  .container .son {
+    background-color: #3d659e;
+    padding: 7px; }
+  .container .daughter {
+    background-color: #9242f4;
+    padding: 7px; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,19 +1,39 @@
-$margin: 25%;
-$pink: #f442d4;
+$margin: 15%;
+$pink: #9242f4;
 $black: #000;
 $gray: #dcdce8;
 $purple: #453d5e;
 $green: #1a9153;
+$blue: #3d659e;
+$width: 75px;
+$height: 90px;
+$border: 1px solid #EFC6F3;
+$padding: 7px;
 
-// alternate pink: #eb42f4
+// alternate pink:
 // alternate blue: #151189
-// alternate gray: #aaafa8
+// alternate $gray: #dcdce8;
 
 body { background:$gray; font-family: 'Coming Soon', cursive; margin: $margin;
 }
-h1 {color:$purple;}
+h1 {color:$purple; text-align: center;}
 h2 {color: $green;}
-h3
+h3 {color: $pink;}
 
 .Aidan {color:$black;}
-.Emery {color:$pink;}
+.Emery {color:$purple;}
+
+img {height:$height; width:$width;}
+
+
+.container {
+  border-radius: 3px;
+  background: #FFF8FF;
+  border: $border;
+  padding: 15px;
+  color: #333333;
+
+    .son{background-color: $blue; padding: $padding;}
+    .daughter{background-color: $pink; padding: $padding}
+
+}

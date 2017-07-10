@@ -4,15 +4,15 @@ var path = require('path');
 
 
 // serve static files
-app.use(express.static(path.resolve('./server/public')));
+app.use(express.static(path.resolve('./public')));
 
 // server index file
-app.get('/info', function(req, res) {
-    res.send("hello from the server");
-});
+// app.get('/info', function(req, res) {
+//     res.send("hello from the server");
+// });
 
-app.use('/', function(req, res) {
-  res.sendFile(path.join(__dirname, './index.html'));
+app.get('/', function(req,res){
+  res.sendFile(path.resolve('public/index.html') );
 });
 
 app.listen(3000, function() {
